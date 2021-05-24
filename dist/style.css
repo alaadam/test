@@ -1,0 +1,17 @@
+.eachRecipes{
+    height: 600px;
+    flex: 1 0 33%; 
+    text-align: center;
+    margin: 5px;
+}
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    background-color: aqua;
+    width: 80%;
+}
+#getIngredient{
+    width: 15%;
+}
