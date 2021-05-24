@@ -20,9 +20,9 @@
         <div class="eachRecipes">
             <a class="title" href="{{href}}">{{title}}</a><br>
             <img id="imgClicked" src={{thumbnail}} height="300px" onError="this.onerror=null;this.src='/default.jpg';" >
-            <ul id=ingredientsList>Ingredients:
+            <ul  id="ingredientsList">Ingredients:
             {{#each ingredients}}
-               <li data-id={{this}}>{{this}}</li> 
+               <li>{{this}}</li> 
             {{/each}}
             </ul>
         </div>

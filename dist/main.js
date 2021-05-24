@@ -8,5 +8,6 @@ $('#getIngredient').click(function() {
 });
 
 $("body").on('click',"img" ,function(){
-    alert($(this).closest('#ingredientsList'))
+    let title=$(this).siblings('#ingredientsList').children()[0].innerHTML ;
+    alert(title)
 })
